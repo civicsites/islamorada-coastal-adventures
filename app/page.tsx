@@ -492,7 +492,7 @@ export default function Home() {
         <a
           href="/accessibility"
           aria-label="View accessibility statement"
-          className="fixed bottom-5 right-5 z-[999] flex h-14 w-14 items-center justify-center rounded-full bg-[#063247] text-2xl text-white shadow-xl transition hover:bg-[#18B7B9] focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-[#18B7B9]"
+          className="fixed bottom-24 right-5 z-[9999] flex h-14 w-14 items-center justify-center rounded-full bg-[#063247] text-2xl text-white shadow-xl transition hover:bg-[#18B7B9] focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-[#18B7B9]"
         >
           ♿
         </a>
