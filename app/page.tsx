@@ -11,7 +11,7 @@ export default function Home() {
           </div>
         </div>
 
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <nav className="mx-auto flex max-w-7xl flex-col items-center gap-4 px-4 py-4 md:flex-row md:justify-between md:px-6">
           <a href="#" className="flex items-center gap-3">
             <img
               src="/logo.JPG"
@@ -20,7 +20,7 @@ export default function Home() {
             />
           </a>
 
-          <div className="hidden items-center gap-7 text-sm font-bold text-[#063247] md:flex">
+          <div className="flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 text-center text-xs font-bold text-[#063247] sm:text-sm md:w-auto md:gap-7">
             <a href="/fishing" className="hover:text-[#18B7B9]">
               Fishing
             </a>
