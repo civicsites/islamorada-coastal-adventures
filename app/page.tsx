@@ -257,7 +257,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-8 rounded-xl bg-[#DDF7F5] p-6 md:grid-cols-2 md:p-8">
           <div className="h-[300px] overflow-hidden rounded-lg md:h-[340px]">
             <img
-              src="/snorkel-sandbar-family.jpg"
+              src="/sandbar-family.jpg"
               alt="Islamorada sandbar snorkeling adventure"
               className="h-full w-full object-cover"
             />
