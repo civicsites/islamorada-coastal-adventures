@@ -126,10 +126,10 @@ export default function Home() {
       </section>
 
       {/* HOTEL PICKUP STRIP */}
-      <section className="bg-[#063247] px-6 py-5 text-white">
+      <section className="bg-[#063247] px-6 py-6 text-white">
         <div className="mx-auto flex max-w-7xl items-center justify-center gap-4 text-center">
           <span className="text-3xl">🏨</span>
-          <p className="text-base font-bold">
+          <p className="text-xl font-black md:text-2xl">
             Staying at a hotel? We can arrange pickup at your hotel dock when
             available or the nearest marina.
           </p>
