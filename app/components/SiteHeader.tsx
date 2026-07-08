@@ -10,24 +10,24 @@ export default function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-      <div className="bg-[#063247] px-6 py-2 text-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-1 text-xs font-semibold md:flex-row md:items-center md:justify-between">
+      <div className="bg-[#063247] px-4 py-2 text-white">
+        <div className="mx-auto flex max-w-7xl flex-col gap-1 text-center text-xs font-semibold md:flex-row md:items-center md:justify-between md:text-left">
           <p>Call to Book: (305) 735-4070</p>
           <p>captain@islamoradacoastaladventures.com</p>
           <p>Islamorada, Florida Keys</p>
         </div>
       </div>
 
-      <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-4">
-        <a href="/" className="flex items-center gap-3">
+      <nav className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-4 py-4 md:flex-row md:justify-between md:px-6">
+        <a href="/" className="flex items-center justify-center">
           <img
             src="/logo.JPG"
             alt="Islamorada Coastal Adventures logo"
-            className="h-25 w-auto object-contain"
+            className="h-20 w-auto object-contain md:h-24"
           />
         </a>
 
-        <div className="flex w-full flex-wrap items-center justify-center gap-3 border-t border-slate-100 pt-3 text-xs font-bold text-[#063247] sm:text-sm lg:w-auto lg:border-0 lg:pt-0">
+        <div className="flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 text-center text-xs font-black uppercase tracking-wide text-[#063247] md:w-auto md:text-sm">
           {links.map((link) => (
             <a key={link.href} href={link.href} className="hover:text-[#18B7B9]">
               {link.label}
@@ -35,22 +35,9 @@ export default function SiteHeader() {
           ))}
         </div>
 
-        <details className="relative">
-          <summary className="cursor-pointer rounded-md bg-[#063247] px-4 py-2 text-sm font-black uppercase tracking-wide text-white">
-            Menu
-          </summary>
-          <div className="absolute right-0 mt-3 flex w-56 flex-col rounded-md border border-slate-200 bg-white p-3 text-sm font-bold text-[#063247] shadow-lg">
-            {links.map((link) => (
-              <a key={link.href} href={link.href} className="rounded px-3 py-2 hover:bg-cyan-50">
-                {link.label}
-              </a>
-            ))}
-          </div>
-        </details>
-
         <a
           href="tel:3057354070"
-          className="hidden rounded-md bg-[#F26B5E] px-5 py-3 text-sm font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f] sm:inline-block"
+          className="rounded-md bg-[#F26B5E] px-5 py-3 text-sm font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f]"
         >
           Book Now
         </a>
