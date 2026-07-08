@@ -225,10 +225,11 @@ export default function Home() {
                 text: "Mix, match, and customize your perfect day.",
               },
             ].map((card) => (
-              <div
+              <a
+              href={`/${card.id}`}
               id={card.id}
               key={card.title}
-              className="scroll-mt-32 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl"
+              className="block scroll-mt-32 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl"
             > 
                 <div className="h-40 overflow-hidden">
                   <img
@@ -250,7 +251,7 @@ export default function Home() {
                     {card.text}
                   </p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
