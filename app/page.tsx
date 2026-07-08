@@ -14,7 +14,7 @@ export default function Home() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="#" className="flex items-center gap-3">
             <img
-              src="/logo.jpg"
+              src="/logo.JPG"
               alt="Islamorada Coastal Adventures logo"
               className="h-25 w-auto object-contain"
             />
@@ -387,7 +387,7 @@ export default function Home() {
           <div>
             <div className="inline-flex rounded-lg bg-white p-2">
               <img
-                src="/logo.jpg"
+                src="/logo.JPG"
                 alt="Islamorada Coastal Adventures logo"
                 className="h-30 w-auto object-contain"
               />
