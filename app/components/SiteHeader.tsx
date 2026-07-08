@@ -27,7 +27,7 @@ export default function SiteHeader() {
           />
         </a>
 
-        <div className="hidden items-center gap-7 text-sm font-bold text-[#063247] md:flex">
+        <div className="hidden items-center gap-7 text-sm font-bold text-[#063247] lg:flex">
           {links.map((link) => (
             <a key={link.href} href={link.href} className="hover:text-[#18B7B9]">
               {link.label}
@@ -35,7 +35,7 @@ export default function SiteHeader() {
           ))}
         </div>
 
-        <details className="relative md:hidden">
+        <details className="relative lg:hidden">
           <summary className="cursor-pointer rounded-md bg-[#063247] px-4 py-2 text-sm font-black uppercase tracking-wide text-white">
             Menu
           </summary>
