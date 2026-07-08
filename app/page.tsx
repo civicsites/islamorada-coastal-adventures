@@ -49,10 +49,15 @@ export default function Home() {
       {/* HERO */}
       <section className="relative overflow-hidden bg-[#063247]">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(6,50,71,0.95),rgba(6,50,71,0.72),rgba(6,50,71,0.25))]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,_rgba(24,183,185,0.35),_transparent_35%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,_rgba(24,183,185,0.25),_transparent_35%)]" />
+        <img
+          src="/footer-reef.jpg"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover opacity-25 mix-blend-screen"
+        />
 
         {/* Placeholder background until we add real boat photo */}
-        <div className="absolute inset-0 opacity-30">
+        <div className="absolute inset-0 opacity-10">
           <div className="h-full w-full bg-[linear-gradient(135deg,#0B6F88_0%,#18B7B9_45%,#DDF7F5_100%)]" />
         </div>
 
