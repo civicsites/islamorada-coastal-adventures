@@ -3,24 +3,24 @@ export default function Home() {
     <main className="min-h-screen bg-white text-[#102A3A]">
       {/* TOP HEADER */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-        <div className="bg-[#063247] px-6 py-2 text-white">
-          <div className="mx-auto flex max-w-7xl flex-col gap-1 text-xs font-semibold md:flex-row md:items-center md:justify-between">
+        <div className="bg-[#063247] px-4 py-1 text-white">
+          <div className="mx-auto flex max-w-7xl flex-col gap-0.5 text-[11px] font-semibold leading-tight md:flex-row md:items-center md:justify-between">
             <p>Call to Book: (305) 735-4070</p>
             <p>captain@islamoradacoastaladventures.com</p>
             <p>Islamorada, Florida Keys</p>
           </div>
         </div>
 
-        <nav className="mx-auto flex max-w-7xl flex-col items-center gap-4 px-4 py-4 md:flex-row md:justify-between md:px-6">
+        <nav className="mx-auto flex max-w-7xl flex-col items-center gap-2 px-4 py-3 md:flex-row md:justify-between md:px-6">
           <a href="#" className="flex items-center gap-3">
             <img
               src="/logo.JPG"
               alt="Islamorada Coastal Adventures logo"
-              className="h-25 w-auto object-contain"
+              className="h-16 w-auto object-contain md:h-25"
             />
           </a>
 
-          <div className="flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 text-center text-xs font-bold text-[#063247] sm:text-sm md:w-auto md:gap-7">
+          <div className="flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center text-[11px] font-bold text-[#063247] sm:text-sm md:w-auto md:gap-7">
             <a href="/fishing" className="hover:text-[#18B7B9]">
               Fishing
             </a>
@@ -40,7 +40,7 @@ export default function Home() {
 
           <a
             href="#booking"
-            className="rounded-md bg-[#F26B5E] px-5 py-3 text-sm font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f]"
+            className="rounded-md bg-[#F26B5E] px-4 py-2 text-xs font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f] md:px-5 md:py-3 md:text-sm"
           >
             Book Now
           </a>
