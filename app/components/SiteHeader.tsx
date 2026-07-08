@@ -18,7 +18,7 @@ export default function SiteHeader() {
         </div>
       </div>
 
-      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4">
+      <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-4">
         <a href="/" className="flex items-center gap-3">
           <img
             src="/logo.JPG"
@@ -27,7 +27,7 @@ export default function SiteHeader() {
           />
         </a>
 
-        <div className="hidden items-center gap-7 text-sm font-bold text-[#063247] lg:flex">
+        <div className="flex w-full flex-wrap items-center justify-center gap-3 border-t border-slate-100 pt-3 text-xs font-bold text-[#063247] sm:text-sm lg:w-auto lg:border-0 lg:pt-0">
           {links.map((link) => (
             <a key={link.href} href={link.href} className="hover:text-[#18B7B9]">
               {link.label}
