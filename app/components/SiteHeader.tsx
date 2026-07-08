@@ -18,7 +18,7 @@ export default function SiteHeader() {
             />
           </a>
   
-          <div className="hidden items-center gap-7 text-sm font-bold text-[#063247] md:flex">
+          <div className="flex flex-wrap items-center justify-center gap-3 text-xs font-bold text-[#063247] sm:text-sm md:gap-7">
             <a href="/" className="hover:text-[#18B7B9]">Home</a>
             <a href="/fishing" className="hover:text-[#18B7B9]">Fishing</a>
             <a href="/snorkeling" className="hover:text-[#18B7B9]">Snorkeling</a>
