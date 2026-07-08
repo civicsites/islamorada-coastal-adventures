@@ -35,7 +35,7 @@ export default function SiteHeader() {
           ))}
         </div>
 
-        <details className="relative lg:hidden">
+        <details className="relative">
           <summary className="cursor-pointer rounded-md bg-[#063247] px-4 py-2 text-sm font-black uppercase tracking-wide text-white">
             Menu
           </summary>
