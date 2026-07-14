@@ -371,7 +371,7 @@ export default function Home() {
               <p className="text-4xl font-black">(305) 735-4070</p>
 
               <a
-                href="tel:3057354070"
+                href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ"
                 className="mt-4 inline-block rounded-md bg-[#F26B5E] px-6 py-4 text-sm font-black uppercase tracking-wide text-white transition hover:bg-[#df5a4f]"
               >
                 Book Your Adventure Now →
@@ -448,7 +448,7 @@ export default function Home() {
             <h3 className="font-black uppercase tracking-wide">Contact</h3>
 
             <div className="mt-5 space-y-3 text-sm leading-6 text-white/75">
-              <a href="tel:3057354070" className="block hover:text-white">
+              <a href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ" className="block hover:text-white">
                 ☎ (305) 735-4070
               </a>
 
