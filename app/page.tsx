@@ -39,7 +39,7 @@ export default function Home() {
           </div>
 
           <a
-            href="#booking"
+            href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ"
             className="rounded-md bg-[#F26B5E] px-4 py-2 text-xs font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f] md:px-5 md:py-3 md:text-sm"
           >
             Book Now
@@ -98,7 +98,7 @@ export default function Home() {
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <a
-                href="#booking"
+                href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ"
                 className="rounded-md bg-[#F26B5E] px-7 py-4 text-center text-sm font-black uppercase tracking-wide text-white shadow-lg transition hover:bg-[#df5a4f]"
               >
                 Book Your Adventure →
@@ -286,7 +286,7 @@ export default function Home() {
             </p>
 
             <a
-              href="#booking"
+              href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ"
               className="mt-7 w-fit rounded-md bg-[#063247] px-6 py-4 text-sm font-black uppercase tracking-wide text-white transition hover:bg-[#075E78]"
             >
               Build Your Custom Adventure →
@@ -438,7 +438,7 @@ export default function Home() {
               <a href="#adventures" className="hover:text-white">
                 Sandbar Excursions
               </a>
-              <a href="#booking" className="hover:text-white">
+              <a href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ" className="hover:text-white">
                 Book Now
               </a>
             </div>
