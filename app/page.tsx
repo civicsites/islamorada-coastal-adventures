@@ -465,6 +465,27 @@ export default function Home() {
               snorkeling, eco tours, sandbars, and custom adventures — your
               day, your way.
             </p>
+            <div className="mt-5 flex items-center gap-4">
+              <a
+                href="https://www.facebook.com/IslamoradaCoastalAdventures"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#1877F2] text-lg font-black text-white shadow-lg transition hover:scale-105 hover:bg-[#0f5fc2]"
+              >
+                f
+              </a>
+
+              <a
+                href="https://www.instagram.com/islamorada_coastal_adventures/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[#FEDA75] via-[#D62976] to-[#4F5BD5] text-sm font-black text-white shadow-lg transition hover:scale-105"
+              >
+                IG
+              </a>
+            </div>
 
             <div className="mt-6 flex gap-4 text-2xl text-white/80">
               <span>●</span>
