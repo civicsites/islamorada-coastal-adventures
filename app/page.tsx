@@ -6,7 +6,7 @@ export default function Home() {
         <div className="bg-[#063247] px-4 py-1 text-white">
           <div className="mx-auto flex max-w-7xl flex-col gap-0.5 text-[11px] font-semibold leading-tight md:flex-row md:items-center md:justify-between">
             <p>Call to Book: (305) 735-4070</p>
-            <p>captain@islamoradacoastaladventures.com</p>
+            <p>Matt@islamoradacoastaladventures.com</p>
             <p>Islamorada, Florida Keys</p>
           </div>
         </div>
@@ -462,10 +462,10 @@ export default function Home() {
               </a>
 
               <a
-                href="mailto:captain@islamoradacoastaladventures.com"
+                href="mailto:Matt@islamoradacoastaladventures.com"
                 className="block hover:text-white"
               >
-                ✉ captain@islamoradacoastaladventures.com
+                ✉ Matt@islamoradacoastaladventures.com
               </a>
 
               <p>📍 Islamorada, Florida Keys</p>
