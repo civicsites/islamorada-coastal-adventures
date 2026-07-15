@@ -55,9 +55,15 @@ export default function Home() {
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(6,50,71,0.95),rgba(6,50,71,0.72),rgba(6,50,71,0.25))]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,_rgba(24,183,185,0.25),_transparent_35%)]" />
         <img
+          src="/mobile-boat.jpg"
+          alt="Islamorada boat background"
+          className="absolute inset-0 h-full w-full object-cover opacity-70 md:hidden"
+        />
+
+        <img
           src="/footer-reef.jpg"
           alt=""
-          className="absolute inset-0 h-full w-full object-cover opacity-25 mix-blend-screen"
+          className="absolute inset-0 hidden h-full w-full object-cover opacity-25 mix-blend-screen md:block"
         />
 
         {/* Placeholder background until we add real boat photo */}
@@ -348,13 +354,12 @@ export default function Home() {
       {/* FINAL CTA */}
       <section id="booking" className="px-6 pb-6">
         <div className="relative mx-auto max-w-7xl overflow-hidden rounded-xl shadow-xl">
+
           <img
             src="/footer-reef.jpg"
             alt="Florida Keys reef background"
             className="absolute inset-0 h-full w-full object-cover opacity-45"
-          />
-
-          <div className="absolute inset-0 bg-[#063247]/75" />
+            />
 
           <div className="relative z-10 p-8 text-white md:flex md:items-center md:justify-between">
             <div>
