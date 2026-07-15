@@ -3,11 +3,33 @@ export default function Home() {
     <main className="min-h-screen bg-white text-[#102A3A]">
       {/* TOP HEADER */}
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-        <div className="bg-[#063247] px-4 py-1 text-white">
-          <div className="mx-auto flex max-w-7xl flex-col gap-0.5 text-[11px] font-semibold leading-tight md:flex-row md:items-center md:justify-between">
+        <div className="bg-[#063247] px-4 py-2 text-white">
+          <div className="mx-auto flex max-w-7xl flex-col gap-2 text-xs font-semibold leading-tight md:flex-row md:items-center md:justify-between md:text-sm">
             <p>Call to Book: (305) 735-4070</p>
             <p>Matt@islamoradacoastaladventures.com</p>
-            <p>Islamorada, Florida Keys</p>
+
+            <div className="flex items-center justify-center gap-3">
+              <p>Islamorada, Florida Keys</p>
+
+              <a
+                href="https://www.facebook.com/IslamoradaCoastalAdventures"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#1877F2] text-sm font-black text-white shadow-sm transition hover:scale-105 hover:bg-[#0f5fc2]"
+              >
+                f
+              </a>
+              <a
+                href="https://www.instagram.com/islamorada_coastal_adventures/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-[#FEDA75] via-[#D62976] to-[#4F5BD5] text-sm font-black text-white shadow-sm transition hover:scale-105"
+              >
+                IG
+              </a>
+            </div>
           </div>
         </div>
 
@@ -20,7 +42,7 @@ export default function Home() {
             />
           </a>
 
-          <div className="flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center text-[11px] font-bold text-[#063247] sm:text-sm md:w-auto md:gap-7">
+          <div className="flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center text-[11px] font-bold text-[#063247] sm:text-sm md:w-auto md:gap-x-6">
             <a href="/fishing" className="hover:text-[#18B7B9]">
               Fishing
             </a>
@@ -36,7 +58,6 @@ export default function Home() {
             <a href="/custom-adventure" className="hover:text-[#18B7B9]">
               Custom Adventure
             </a>
-
             <a href="/about" className="hover:text-[#18B7B9]">
               About
             </a>
@@ -44,14 +65,14 @@ export default function Home() {
 
           <a
             href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ"
-            className="rounded-md bg-[#F26B5E] px-4 py-2 text-xs font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f] md:px-5 md:py-3 md:text-sm"
+            className="rounded-md bg-[#F26B5E] px-6 py-4 text-sm font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f]"
           >
             Book Now
           </a>
         </nav>
       </header>
       {/* HERO */}
-      <section className="relative overflow-hidden bg-[#063247]">
+      < section className="relative overflow-hidden bg-[#063247]" >
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(6,50,71,0.95),rgba(6,50,71,0.72),rgba(6,50,71,0.25))]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,_rgba(24,183,185,0.25),_transparent_35%)]" />
         <img
@@ -133,10 +154,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       {/* HOTEL PICKUP STRIP */}
-      <section className="bg-[#063247] px-6 py-6 text-white">
+      < section className="bg-[#063247] px-6 py-6 text-white" >
         <div className="mx-auto flex max-w-7xl items-center justify-center gap-4 text-center">
           <span className="text-3xl">🏨</span>
           <p className="text-xl font-black md:text-2xl">
@@ -144,10 +165,10 @@ export default function Home() {
             available or the nearest marina.
           </p>
         </div>
-      </section>
+      </section >
 
       {/* FEATURE STRIP */}
-      <section className="border-b border-slate-200 bg-[#F7F3EA] px-6 py-6">
+      < section className="border-b border-slate-200 bg-[#F7F3EA] px-6 py-6" >
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-4">
           <div className="flex items-center gap-4 border-slate-300 md:border-r">
             <span className="text-4xl text-[#075E78]">👥</span>
@@ -183,10 +204,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       {/* ADVENTURE CARDS */}
-      <section id="adventures" className="bg-white px-6 py-20">
+      < section id="adventures" className="bg-white px-6 py-20" >
         <div className="mx-auto max-w-7xl">
           <div className="text-center">
             <p className="font-serif text-3xl italic text-[#18B7B9]">
@@ -270,7 +291,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section >
 
       {/* FLEXIBILITY SECTION */}
       {/* FLEXIBILITY SECTION */}
@@ -536,6 +557,6 @@ export default function Home() {
       >
         ♿
       </a>
-    </main >
+    </main>
   );
 }
