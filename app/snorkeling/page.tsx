@@ -58,7 +58,7 @@ export default function SnorkelingPage() {
 
             <div className="h-[320px] overflow-hidden rounded-2xl shadow-2xl md:h-[420px]">
               <img
-                src="/snorkeling-page.jpg"
+                src="/snorkeling-4.jpeg"
                 alt="Private snorkeling tour in the Florida Keys"
                 className="h-full w-full object-cover"
               />
