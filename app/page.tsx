@@ -202,7 +202,7 @@ export default function Home() {
               {
                 id: "fishing",
                 icon: "🐟",
-                image: "/backcountry-flats-fishing.jpg",
+                image: "/backcountry.jpeg",
                 title: "Backcountry / Flats Fishing",
                 text: "Light tackle fishing in calm, scenic backcountry waters.",
               },
