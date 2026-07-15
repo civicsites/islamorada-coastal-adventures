@@ -276,7 +276,10 @@ export default function Home() {
       {/* FLEXIBILITY SECTION */}
       <section id="about" className="bg-white px-6 pb-20">
         <div className="mx-auto grid max-w-7xl gap-8 rounded-xl bg-[#DDF7F5] p-6 md:grid-cols-2 md:p-8">
-          <div className="relative h-[300px] overflow-hidden rounded-lg md:h-[340px]">
+          <div
+            className="relative h-[300px] overflow-hidden rounded-lg bg-cover bg-center md:h-[340px]"
+            style={{ backgroundImage: "url('/sandbar1.jpeg')" }}
+          >
 
             <img
               src="/sandbar1.jpeg"
@@ -289,21 +292,21 @@ export default function Home() {
               src="/backcountry.jpeg"
               alt="Islamorada fishing adventure"
               className="slideshow-image absolute inset-0 h-full w-full object-cover object-top"
-              style={{ animationDelay: "6s" }}
+              style={{ animationDelay: "8s" }}
             />
 
             <img
               src="/custom-adventure-page.jpg"
               alt="Islamorada fishing adventure"
               className="slideshow-image absolute inset-0 h-full w-full object-cover object-top"
-              style={{ animationDelay: "12s" }}
+              style={{ animationDelay: "16s" }}
             />
 
             <img
               src="/eco-tour.jpg"
               alt="Islamorada boat adventure"
               className="slideshow-image absolute inset-0 h-full w-full object-cover"
-              style={{ animationDelay: "18s" }}
+              style={{ animationDelay: "24s" }}
             />
           </div>
 

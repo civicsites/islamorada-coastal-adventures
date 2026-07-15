@@ -44,23 +44,24 @@ summary {
 }
 @keyframes fadeSlide {
   0% {
-    opacity: 1;
-  }
-  22% {
-    opacity: 1;
-  }
-  25% {
     opacity: 0;
   }
-  97% {
+  5% {
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  31% {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 .slideshow-image {
   opacity: 0;
-  animation: fadeSlide 24s infinite;
+  animation: fadeSlide 32s infinite ease-in-out;
+  will-change: opacity;
 }
