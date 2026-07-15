@@ -6,6 +6,7 @@ export default function SiteHeader() {
     { href: "/eco-tours", label: "Eco Tours" },
     { href: "/sandbar", label: "Sandbar" },
     { href: "/custom-adventure", label: "Custom Adventure" },
+    { href: "/about", label: "About" },
   ];
 
   return (
