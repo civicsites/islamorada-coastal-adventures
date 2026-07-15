@@ -209,7 +209,7 @@ export default function Home() {
               {
                 id: "snorkeling",
                 icon: "🤿",
-                image: "/snorkeling-reef-with-fish.jpg",
+                image: "/snorkeling-1.jpeg",
                 title: "Private Snorkeling Tours",
                 text: "Vibrant reefs, tropical fish, and crystal clear waters.",
               },
@@ -223,14 +223,14 @@ export default function Home() {
               {
                 id: "sandbar",
                 icon: "🏖️",
-                image: "/sandbar-excursions.jpg",
+                image: "/sandbar2.jpeg",
                 title: "Sandbar Excursions",
                 text: "Relax, swim, float, and soak up the Florida sun.",
               },
               {
                 id: "custom-adventure",
                 icon: "🧭",
-                image: "/sandbar-family.jpg",
+                image: "/backcountry-fishing1.jpeg",
                 title: "Build Your Own Adventure",
                 text: "Mix, match, and customize your perfect day.",
               },
@@ -245,7 +245,12 @@ export default function Home() {
                   <img
                     src={card.image}
                     alt={card.title}
-                    className="h-full w-full object-cover"
+                    className={`h-56 w-full object-cover ${card.id === "snorkeling"
+                      ? "object-[center_70%]"
+                      : card.id === "fishing"
+                        ? "object-top"
+                        : "object-center"
+                      }`}
                   />
                 </div>
 
@@ -271,11 +276,34 @@ export default function Home() {
       {/* FLEXIBILITY SECTION */}
       <section id="about" className="bg-white px-6 pb-20">
         <div className="mx-auto grid max-w-7xl gap-8 rounded-xl bg-[#DDF7F5] p-6 md:grid-cols-2 md:p-8">
-          <div className="h-[300px] overflow-hidden rounded-lg md:h-[340px]">
+          <div className="relative h-[300px] overflow-hidden rounded-lg md:h-[340px]">
+
             <img
-              src="/sandbar-family.jpg"
-              alt="Islamorada sandbar snorkeling adventure"
-              className="h-full w-full object-cover"
+              src="/sandbar1.jpeg"
+              alt="Islamorada sandbar adventure"
+              className="slideshow-image absolute inset-0 h-full w-full object-cover"
+              style={{ animationDelay: "0s" }}
+            />
+
+            <img
+              src="/backcountry.jpeg"
+              alt="Islamorada fishing adventure"
+              className="slideshow-image absolute inset-0 h-full w-full object-cover object-top"
+              style={{ animationDelay: "6s" }}
+            />
+
+            <img
+              src="/custom-adventure-page.jpg"
+              alt="Islamorada fishing adventure"
+              className="slideshow-image absolute inset-0 h-full w-full object-cover object-top"
+              style={{ animationDelay: "12s" }}
+            />
+
+            <img
+              src="/eco-tour.jpg"
+              alt="Islamorada boat adventure"
+              className="slideshow-image absolute inset-0 h-full w-full object-cover"
+              style={{ animationDelay: "18s" }}
             />
           </div>
 
@@ -359,7 +387,7 @@ export default function Home() {
             src="/footer-reef.jpg"
             alt="Florida Keys reef background"
             className="absolute inset-0 h-full w-full object-cover opacity-45"
-            />
+          />
 
           <div className="relative z-10 p-8 text-white md:flex md:items-center md:justify-between">
             <div>

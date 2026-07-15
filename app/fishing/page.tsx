@@ -3,17 +3,17 @@ import SiteFooter from "../components/SiteFooter";
 import ServiceCTA from "../components/ServiceCTA";
 
 export const metadata = {
-    title: "Islamorada Fishing Charters | Islamorada Coastal Adventures",
-    description:
-      "Private Islamorada fishing charters for backcountry and flats fishing in the Florida Keys. Book a relaxed private fishing trip with Islamorada Coastal Adventures.",
-  };
+  title: "Islamorada Fishing Charters | Islamorada Coastal Adventures",
+  description:
+    "Private Islamorada fishing charters for backcountry and flats fishing in the Florida Keys. Book a relaxed private fishing trip with Islamorada Coastal Adventures.",
+};
 export default function FishingPage() {
   return (
     <>
       <SiteHeader />
 
       <main className="min-h-screen bg-white text-[#102A3A]">
-      <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
+        <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
           <img
             src="/footer-reef.jpg"
             alt="Florida Keys reef background"
@@ -57,7 +57,7 @@ export default function FishingPage() {
 
             <div className="h-[320px] overflow-hidden rounded-2xl shadow-2xl md:h-[420px]">
               <img
-                src="/fishing-page.jpg"
+                src="/backcountryfishing.jpeg"
                 alt="Backcountry flats fishing in Islamorada"
                 className="h-full w-full object-cover object-[center_34%]"
               />

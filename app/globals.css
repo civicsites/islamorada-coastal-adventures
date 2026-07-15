@@ -42,3 +42,25 @@ button,
 summary {
   -webkit-tap-highlight-color: rgba(24, 183, 185, 0.25);
 }
+@keyframes fadeSlide {
+  0% {
+    opacity: 1;
+  }
+  22% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slideshow-image {
+  opacity: 0;
+  animation: fadeSlide 24s infinite;
+}
