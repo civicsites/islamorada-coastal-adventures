@@ -61,6 +61,9 @@ export default function Home() {
             <a href="/about" className="hover:text-[#18B7B9]">
               About
             </a>
+            <a href="/reviews" className="hover:text-[#18B7B9]">
+              Reviews
+            </a>
           </div>
 
           <a
