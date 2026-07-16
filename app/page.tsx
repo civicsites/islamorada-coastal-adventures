@@ -43,6 +43,9 @@ export default function Home() {
           </a>
 
           <div className="flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center text-[11px] font-bold text-[#063247] sm:text-sm md:w-auto md:gap-x-6">
+            <a href="/" className="hover:text-[#18B7B9]">
+              Home
+            </a>
             <a href="/fishing" className="hover:text-[#18B7B9]">
               Fishing
             </a>
