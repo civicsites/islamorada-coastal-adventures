@@ -67,7 +67,9 @@ export default function SiteHeader() {
         </div>
 
         <a
-          href="tel:3057354070"
+          href="https://www.mycaptain.com/booking/islamoradacoastaladventures"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-md bg-[#F26B5E] px-5 py-3 text-sm font-black uppercase tracking-wide text-white shadow-md transition hover:bg-[#df5a4f]"
         >
           Book Now
