@@ -5,7 +5,14 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
         <div className="bg-[#063247] px-4 py-2 text-white">
           <div className="mx-auto flex max-w-7xl flex-col gap-2 text-xs font-semibold leading-tight md:flex-row md:items-center md:justify-between md:text-sm">
-            <p>Call to Book: (305) 735-4070</p>
+            <a
+              href="https://www.mycaptain.com/booking/islamoradacoastaladventures"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-[#18B7B9]"
+            >
+              Book Now
+            </a>
             <p>Matt@islamoradacoastaladventures.com</p>
 
             <div className="flex items-center justify-center gap-3">
