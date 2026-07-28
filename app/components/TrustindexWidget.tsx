@@ -14,7 +14,7 @@ export default function TrustindexWidget() {
 
     const script = document.createElement("script");
     script.src =
-      "https://cdn.trustindex.io/loader.js?58dc85276d45855e7c264ecf51b";
+      "https://cdn.trustindex.io/loader.js?87f7e5f778379249e1166b57bfe";
     script.async = true;
     script.defer = true;
 
