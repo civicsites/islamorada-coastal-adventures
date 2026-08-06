@@ -91,13 +91,13 @@ export default function Home() {
         <img
           src="/backcountry-fishing1a.jpg"
           alt="Islamorada boat background"
-          className="absolute inset-0 h-full w-full object-cover opacity-70 md:hidden"
+          className="absolute inset-0 h-full w-full object-contain object-center opacity-70 md:hidden"
         />
 
         <img
           src="/backcountry-fishing1a.jpg"
           alt=""
-          className="absolute inset-0 hidden h-full w-full object-cover opacity-25 mix-blend-screen md:block"
+          className="absolute inset-0 hidden h-full w-full object-contain object-center opacity-25 mix-blend-screen md:block"
         />
 
         {/* Placeholder background until we add real boat photo */}
