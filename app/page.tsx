@@ -91,15 +91,14 @@ export default function Home() {
         <img
           src="/backcountry-fishing1a.jpg"
           alt="Islamorada boat background"
-          className="absolute inset-0 h-full w-full object-contain object-center opacity-70 md:hidden"
+          className="absolute inset-0 h-full w-full object-cover object-top opacity-70 md:hidden"
         />
 
         <img
           src="/backcountry-fishing1a.jpg"
           alt=""
-          className="absolute inset-0 hidden h-full w-full object-contain object-center opacity-25 mix-blend-screen md:block"
+          className="absolute top-0 left-[-5%] hidden h-full w-[110%] max-w-none object-cover object-[65%_25%] opacity-25 mix-blend-screen md:block"
         />
-
         {/* Placeholder background until we add real boat photo */}
         <div className="absolute inset-0 opacity-10">
           <div className="h-full w-full bg-[linear-gradient(135deg,#0B6F88_0%,#18B7B9_45%,#DDF7F5_100%)]" />
@@ -158,7 +157,7 @@ export default function Home() {
           </div>
 
           <div className="hidden md:block">
-            <div className="ml-auto h-[500px] w-full max-w-2xl overflow-hidden rounded-2xl border border-white/20 shadow-2xl">
+            <div className="ml-auto h-[500px] w-full max-w-2xl translate-x-12 overflow-hidden rounded-2xl border border-white/20 shadow-2xl">
               <img
                 src="/hero-boat.jpg"
                 alt="Islamorada Coastal Adventures boat on clear Florida Keys water"
@@ -455,11 +454,11 @@ export default function Home() {
         </div>
       </section>
       {/* FOOTER */}
-      <footer id="contact" className="relative overflow-hidden bg-[#063247] px-6 py-12 text-white">
+      <footer id="contact" className="relative min-h-[650px] overflow-hidden bg-[#063247] px-6 py-12 text-white">
         <img
           src="/backcountry-fishing1a.jpg"
           alt="Florida Keys reef background"
-          className="absolute inset-0 h-full w-full object-cover opacity-20"
+          className="absolute inset-0 h-full w-full object-cover object-[center_30%] opacity-40"
         />
 
         <div className="absolute inset-0 bg-[#063247]/88" />
