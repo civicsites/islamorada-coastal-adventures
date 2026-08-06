@@ -89,13 +89,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(6,50,71,0.95),rgba(6,50,71,0.72),rgba(6,50,71,0.25))]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,_rgba(24,183,185,0.25),_transparent_35%)]" />
         <img
-          src="/mobile-boat.jpg"
+          src="/backcountry-fishing1a.jpg"
           alt="Islamorada boat background"
           className="absolute inset-0 h-full w-full object-cover opacity-70 md:hidden"
         />
 
         <img
-          src="/footer-reef.jpg"
+          src="/backcountry-fishing1a.jpg"
           alt=""
           className="absolute inset-0 hidden h-full w-full object-cover opacity-25 mix-blend-screen md:block"
         />
@@ -421,7 +421,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl overflow-hidden rounded-xl shadow-xl">
 
           <img
-            src="/footer-reef.jpg"
+            src="/backcountry-fishing1a.jpg"
             alt="Florida Keys reef background"
             className="absolute inset-0 h-full w-full object-cover opacity-45"
           />
@@ -457,7 +457,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer id="contact" className="relative overflow-hidden bg-[#063247] px-6 py-12 text-white">
         <img
-          src="/footer-reef.jpg"
+          src="/backcountry-fishing1a.jpg"
           alt="Florida Keys reef background"
           className="absolute inset-0 h-full w-full object-cover opacity-20"
         />
