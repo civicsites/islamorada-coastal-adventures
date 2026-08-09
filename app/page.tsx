@@ -511,25 +511,31 @@ export default function Home() {
             <h3 className="font-black uppercase tracking-wide">Quick Links</h3>
 
             <div className="mt-5 grid grid-cols-2 gap-x-8 gap-y-3 text-sm text-white/75">
-              <a href="#adventures" className="hover:text-white">
+              <a href="/fishing" className="hover:text-white">
                 Fishing
               </a>
-              <a href="#about" className="hover:text-white">
+
+              <a href="/custom-adventure" className="hover:text-white">
                 Custom Adventure
               </a>
-              <a href="#adventures" className="hover:text-white">
+
+              <a href="/snorkeling" className="hover:text-white">
                 Snorkeling
               </a>
-              <a href="#about" className="hover:text-white">
+
+              <a href="/about" className="hover:text-white">
                 About Us
               </a>
-              <a href="#adventures" className="hover:text-white">
+
+              <a href="/eco-tours" className="hover:text-white">
                 Eco Tours
               </a>
-              <a href="#reviews" className="hover:text-white">
+
+              <a href="/reviews" className="hover:text-white">
                 Reviews
               </a>
-              <a href="#adventures" className="hover:text-white">
+
+              <a href="/sandbar" className="hover:text-white">
                 Sandbar Excursions
               </a>
               <a href="https://www.mycaptain.com/booking/islamoradacoastaladventures?_gl=1*1793zsn*_gcl_au*NTQ5MTI4NTc4LjE3ODA4NzU3NTQ" className="hover:text-white">
