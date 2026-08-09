@@ -69,13 +69,13 @@ export default function SiteFooter() {
             <a href="/snorkeling" className="hover:text-white">
               Snorkeling
             </a>
-            <a href="/" className="hover:text-white">
+            <a href="/about" className="hover:text-white">
               About Us
             </a>
             <a href="/eco-tours" className="hover:text-white">
               Eco Tours
             </a>
-            <a href="/" className="hover:text-white">
+            <a href="/reviews" className="hover:text-white">
               Reviews
             </a>
             <a href="/sandbar" className="hover:text-white">
