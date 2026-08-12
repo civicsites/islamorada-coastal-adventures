@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/home-page-gallery",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
