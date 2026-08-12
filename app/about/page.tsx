@@ -5,7 +5,7 @@ import ServiceCTA from "../components/ServiceCTA";
 export const metadata = {
     title: "About Captain Matt | Islamorada Coastal Adventures",
     description:
-        "Learn about Captain Matt Foreman, retired Navy SEAL and owner of Islamorada Coastal Adventures in the Florida Keys.",
+        "Learn about Captain Matt Foreman, retired Navy SEAL, experienced Islamorada charter captain, and owner of Islamorada Coastal Adventures in the Florida Keys.",
 };
 
 export default function AboutPage() {
@@ -30,7 +30,7 @@ export default function AboutPage() {
                             </p>
 
                             <h1 className="mt-4 text-5xl font-black uppercase leading-tight md:text-7xl">
-                                Captain Matt
+                                Captain Matt | Islamorada Charter Captain
                             </h1>
 
                             <p className="mt-3 text-sm font-black uppercase tracking-[0.25em] text-white/70">
