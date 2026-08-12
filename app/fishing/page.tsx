@@ -29,13 +29,14 @@ export default function FishingPage() {
               </p>
 
               <h1 className="mt-4 text-5xl font-black uppercase leading-tight md:text-7xl">
-                Backcountry / Flats Fishing
+                Islamorada Backcountry & Flats Fishing Charters
               </h1>
 
               <p className="mt-6 text-xl leading-8 text-white/85">
-                Light tackle fishing in calm, scenic backcountry waters
-                throughout the Florida Keys. A private fishing experience built
-                around your group, your pace, and your day on the water.
+                Experience private Islamorada fishing charters in the calm, scenic
+                backcountry waters of the Florida Keys. Enjoy light tackle flats and
+                backcountry fishing built around your group, your pace, and your day
+                on the water.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
