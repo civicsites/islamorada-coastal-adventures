@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/home-banner-gallery",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
