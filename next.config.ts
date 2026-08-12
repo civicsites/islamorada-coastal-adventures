@@ -28,6 +28,16 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/snorkeling-gallery/uhfjpstzclpqna66qdirscerzkh3p0",
+        destination: "/snorkeling",
+        permanent: true,
+      },
+      {
+        source: "/snorkeling-gallery/we89sga0yd3t6odwqk0fbfwtmfkj72",
+        destination: "/snorkeling",
+        permanent: true,
+      },
     ];
   },
 };
