@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         destination: "/sandbar",
         permanent: true,
       },
+      {
+        source: "/charters",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
