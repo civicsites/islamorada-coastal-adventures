@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/charters-deposit",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
