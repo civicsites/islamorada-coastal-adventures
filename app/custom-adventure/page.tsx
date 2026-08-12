@@ -3,17 +3,17 @@ import SiteFooter from "../components/SiteFooter";
 import ServiceCTA from "../components/ServiceCTA";
 
 export const metadata = {
-    title: "Custom Florida Keys Boat Adventures | Islamorada Coastal Adventures",
-    description:
-      "Build your own private Florida Keys boat adventure with fishing, snorkeling, sandbar time, eco touring, sightseeing, and relaxing on the water.",
-  };
+  title: "Private Islamorada Boat Charters | Islamorada Coastal Adventures",
+  description:
+    "Create a private Islamorada boat charter with fishing, snorkeling, sandbar time, eco touring, sightseeing, and a custom Florida Keys experience.",
+};
 export default function CustomAdventurePage() {
   return (
     <>
       <SiteHeader />
 
       <main className="min-h-screen bg-white text-[#102A3A]">
-      <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
+        <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
           <img
             src="/footer-reef.jpg"
             alt="Florida Keys reef background"
@@ -29,13 +29,13 @@ export default function CustomAdventurePage() {
               </p>
 
               <h1 className="mt-4 text-5xl font-black uppercase leading-tight md:text-7xl">
-                Build Your Own Adventure
+                Private Islamorada Boat Charters
               </h1>
 
               <p className="mt-6 text-xl leading-8 text-white/85">
-                Mix fishing, snorkeling, sandbar time, eco touring,
-                sightseeing, and relaxing on the water into one custom private
-                trip designed around your perfect day.
+                Create your own private Islamorada boat charter with fishing,
+                snorkeling, sandbar time, eco touring, sightseeing, and relaxing
+                on the water. Your trip is customized around your group and your day.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
