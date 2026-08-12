@@ -3,10 +3,10 @@ import SiteFooter from "../components/SiteFooter";
 import ServiceCTA from "../components/ServiceCTA";
 
 export const metadata = {
-    title: "Islamorada Sandbar Excursions | Islamorada Coastal Adventures",
-    description:
-      "Private Islamorada sandbar excursions for families, couples, and groups. Swim, relax, and enjoy the shallow clear water of the Florida Keys.",
-  };
+  title: "Islamorada Sandbar Charters | Islamorada Coastal Adventures",
+  description:
+    "Private Islamorada sandbar charters for families, couples, and groups. Relax, swim, and enjoy the shallow clear waters of the Florida Keys.",
+};
 export default function SandbarPage() {
   return (
     <>
@@ -29,13 +29,13 @@ export default function SandbarPage() {
               </p>
 
               <h1 className="mt-4 text-5xl font-black uppercase leading-tight md:text-7xl">
-                Sandbar Excursions
+                Islamorada Sandbar Charters
               </h1>
 
               <p className="mt-6 text-xl leading-8 text-white/85">
-                Relax, swim, float, and enjoy the shallow clear water of the
-                Florida Keys. A private sandbar trip is perfect for families,
-                couples, and groups who want an easy day on the water.
+                Relax, swim, float, and enjoy a private Islamorada sandbar charter
+                in the shallow clear waters of the Florida Keys. Perfect for families,
+                couples, and groups looking for an easy day on the water.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
