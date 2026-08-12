@@ -3,10 +3,10 @@ import SiteFooter from "../components/SiteFooter";
 import ServiceCTA from "../components/ServiceCTA";
 
 export const metadata = {
-    title: "Islamorada Snorkeling Tours | Islamorada Coastal Adventures",
-    description:
-      "Private snorkeling tours in Islamorada and the Florida Keys with clear water, reef views, tropical fish, and a relaxed private boat experience.",
-  };
+  title: "Islamorada Snorkeling Tours | Islamorada Coastal Adventures",
+  description:
+    "Private Islamorada snorkeling tours in the Florida Keys with clear water, reef scenery, tropical fish, and a relaxed private boat experience.",
+};
 
 export default function SnorkelingPage() {
   return (
@@ -14,7 +14,7 @@ export default function SnorkelingPage() {
       <SiteHeader />
 
       <main className="min-h-screen bg-white text-[#102A3A]">
-      <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
+        <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
           <img
             src="/footer-reef.jpg"
             alt="Florida Keys reef background"
@@ -30,13 +30,13 @@ export default function SnorkelingPage() {
               </p>
 
               <h1 className="mt-4 text-5xl font-black uppercase leading-tight md:text-7xl">
-                Private Snorkeling Tours
+                Islamorada Snorkeling Tours
               </h1>
 
               <p className="mt-6 text-xl leading-8 text-white/85">
-                Enjoy clear Florida Keys water, tropical fish, reef scenery, and
-                a relaxed private snorkeling experience designed around your
-                group.
+                Enjoy private snorkeling in Islamorada and the Florida Keys with clear
+                water, tropical fish, reef scenery, and a relaxed experience designed
+                around your group.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
