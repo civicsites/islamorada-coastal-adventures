@@ -2,9 +2,9 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import TrustindexWidget from "../components/TrustindexWidget";
 export const metadata = {
-    title: "Reviews | Islamorada Coastal Adventures",
+    title: "Islamorada Charter Reviews | Islamorada Coastal Adventures",
     description:
-        "Read customer reviews for Islamorada Coastal Adventures private Florida Keys charters.",
+        "Read real guest reviews of Islamorada Coastal Adventures and our private fishing, snorkeling, sandbar, eco tour, and Florida Keys boat charters.",
 };
 
 export default function ReviewsPage() {
@@ -17,7 +17,7 @@ export default function ReviewsPage() {
                     Customer Reviews
                 </p>
                 <h1 className="mt-3 text-4xl font-black uppercase tracking-tight md:text-6xl">
-                    What Guests Are Saying
+                Islamorada Coastal Adventures Reviews
                 </h1>
                 <p className="mx-auto mt-5 max-w-3xl text-lg text-white/80">
                     Real reviews from guests who have experienced Islamorada Coastal
