@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Islamorada Coastal Adventures",
-  description: "Private Florida Keys fishing, snorkeling, eco tours, sandbar excursions, and custom charters.",
+  title: "Islamorada Private Boat Charters | Islamorada Coastal Adventures",
+  description:
+    "Private Islamorada boat charters for fishing, snorkeling, sandbar trips, eco tours, and custom adventures throughout the Florida Keys.",
 };
 
 export const viewport: Viewport = {

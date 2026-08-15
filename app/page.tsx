@@ -113,7 +113,7 @@ export default function Home() {
             <h1 className="text-5xl font-black uppercase leading-[0.92] tracking-tight text-white sm:text-6xl md:text-7xl">
               Private
               <br />
-              Florida Keys
+              Islamorada Boat
               <br />
               <span className="font-serif italic normal-case text-[#37D6D8]">
                 Charters
@@ -121,8 +121,8 @@ export default function Home() {
             </h1>
 
             <p className="mt-7 max-w-xl text-xl font-semibold leading-8 text-white">
-              Fishing. Snorkeling. Ecological Tours. Sandbar Excursions. Build
-              Your Own Adventure.
+            Fishing, snorkeling, sandbar trips, eco tours, and custom private
+            boat adventures throughout Islamorada and the Florida Keys.
             </p>
 
             <div className="mt-8 flex items-center gap-4">
