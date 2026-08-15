@@ -38,6 +38,11 @@ const nextConfig: NextConfig = {
         destination: "/snorkeling",
         permanent: true,
       },
+      {
+        source: "/mobile-home",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
