@@ -48,6 +48,11 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/favicon.ico",
+        destination: "/icon.jpg",
+        permanent: true,
+      },
     ];
   },
 };
