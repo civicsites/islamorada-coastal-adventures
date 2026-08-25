@@ -102,7 +102,52 @@ export default function CustomAdventurePage() {
             </div>
           </div>
         </section>
+        <section className="px-6 py-16 bg-[#F8FAFC]">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-black uppercase tracking-[0.25em] text-[#5EE0E2]">
+      Custom Charter FAQs
+    </p>
 
+    <h2 className="mt-3 text-3xl font-black uppercase text-[#063247]">
+      Custom Florida Keys Adventure Questions
+    </h2>
+
+    <div className="mt-8 space-y-6">
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          What can we include in a custom private boat charter?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Your group can combine activities such as fishing, snorkeling,
+          sandbar time, eco touring, sightseeing, and relaxing on the water
+          into one private Florida Keys adventure.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Are custom boat trips good for families and groups?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Custom trips are a great option for families, couples, small
+          groups, and guests with different interests who want a flexible day
+          on the water.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          How do we plan a custom Islamorada boat adventure?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Contact Captain Matt to discuss your group, timing, conditions, and
+          activities. He can help build a private itinerary around the type of
+          Florida Keys experience you want.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
         <ServiceCTA />
       </main>
 
