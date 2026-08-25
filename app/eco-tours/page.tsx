@@ -97,6 +97,50 @@ export default function EcoToursPage() {
             </div>
           </div>
         </section>
+        <section className="px-6 py-16 bg-[#F8FAFC]">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-black uppercase tracking-[0.25em] text-[#5EE0E2]">
+      Eco Tour FAQs
+    </p>
+
+    <h2 className="mt-3 text-3xl font-black uppercase text-[#063247]">
+      Islamorada Eco Tour Questions
+    </h2>
+
+    <div className="mt-8 space-y-6">
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          What can you see on an Islamorada eco tour?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Eco tours may include mangroves, coastal scenery, birds, marine life,
+          and other Florida Keys wildlife depending on the season and conditions.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Are Islamorada eco tours good for families?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Private eco tours are a relaxed option for families, photographers,
+          nature lovers, and visitors who want to explore the quieter side of the
+          Florida Keys.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Can we combine an eco tour with sightseeing or a sandbar trip?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Custom private trips can combine eco touring with sightseeing,
+          sandbar time, snorkeling, or other Florida Keys activities.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
         <ServiceCTA />
       </main>
 
