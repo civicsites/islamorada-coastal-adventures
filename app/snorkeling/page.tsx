@@ -102,7 +102,51 @@ export default function SnorkelingPage() {
             </div>
           </div>
         </section>
+        <section className="px-6 py-16 bg-[#F8FAFC]">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-black uppercase tracking-[0.25em] text-[#5EE0E2]">
+      Snorkeling FAQs
+    </p>
 
+    <h2 className="mt-3 text-3xl font-black uppercase text-[#063247]">
+      Islamorada Snorkeling Questions
+    </h2>
+
+    <div className="mt-8 space-y-6">
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Where can you snorkel in Islamorada?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Islamorada offers access to clear Florida Keys water, reef areas,
+          tropical fish, and scenic snorkeling locations. Trip plans can vary
+          based on weather, water conditions, and your group.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Are Islamorada snorkeling tours good for beginners?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Private snorkeling trips can be planned for beginners,
+          families, couples, and small groups looking for a relaxed experience
+          on the water.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Can we combine snorkeling with a sandbar or sightseeing trip?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Custom private trips can combine snorkeling with sandbar time,
+          sightseeing, eco touring, or other Florida Keys activities.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
         <ServiceCTA />
       </main>
 
