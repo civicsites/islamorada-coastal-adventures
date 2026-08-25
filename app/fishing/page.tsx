@@ -103,6 +103,74 @@ export default function FishingPage() {
             </div>
           </div>
         </section>
+        <section className="px-6 py-16 bg-[#F8FAFC]">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-black uppercase tracking-[0.25em] text-[#5EE0E2]">
+      Fishing Charter FAQs
+    </p>
+
+    <h2 className="mt-3 text-3xl font-black uppercase text-[#063247]">
+      Islamorada Fishing Charter Questions
+    </h2>
+
+    <div className="mt-8 space-y-6">
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          How much does an Islamorada fishing charter cost?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Islamorada Coastal Adventures offers private fishing trips with
+          options based on trip length and the type of day you want on the
+          water. Contact Captain Matt or use the booking page to see current
+          availability and pricing.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Are your Islamorada fishing charters good for kids?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Trips can be planned for families, beginners, experienced
+          anglers, and small groups. Captain Matt can tailor the day to your
+          group and experience level.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          What kind of fishing do you offer in Islamorada?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Trips focus on light tackle, flats, backcountry, mangrove, and
+          inshore fishing around Islamorada and the Florida Keys.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          What fish can we catch in Islamorada?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Depending on the season and conditions, anglers may target species
+          such as snook, redfish, tarpon, trout, snapper, and other Florida
+          Keys inshore and backcountry fish.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Do you offer backcountry and mangrove fishing?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Backcountry and mangrove fishing are a major part of the
+          Islamorada experience and can offer calm water, beautiful scenery,
+          and excellent light-tackle fishing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
         <ServiceCTA />
       </main>
