@@ -100,7 +100,72 @@ export default function SandbarPage() {
               </p>
             </div>
           </div>
-        </section>
+          <section className="px-6 py-16 bg-[#F8FAFC]">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-black uppercase tracking-[0.25em] text-[#5EE0E2]">
+      Sandbar Trip FAQs
+    </p>
+
+    <h2 className="mt-3 text-3xl font-black uppercase text-[#063247]">
+      Islamorada Sandbar Questions
+    </h2>
+
+    <div className="mt-8 space-y-6">
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          What is an Islamorada sandbar trip?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          An Islamorada sandbar trip is a private boat excursion to shallow,
+          clear Florida Keys water where your group can swim, float, relax,
+          and enjoy time on the water at your own pace.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Are Islamorada sandbar trips good for families and kids?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Sandbar trips are a great option for families, kids, couples,
+          and groups looking for a relaxed and easy day on the water.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          How long is an Islamorada sandbar charter?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Trip length can vary depending on availability and the experience
+          you want. Contact Captain Matt or check the booking page for current
+          trip options and pricing.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          Can we combine a sandbar trip with snorkeling or sightseeing?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Yes. Custom private trips can combine sandbar time with snorkeling,
+          sightseeing, eco touring, or other Florida Keys activities.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-black text-[#063247]">
+          What should we bring on a sandbar trip?
+        </h3>
+        <p className="mt-2 leading-7 text-slate-700">
+          Bring sun protection, towels, drinks, and anything else you want for
+          a comfortable day on the water. Captain Matt can help you plan for
+          weather and trip conditions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
         <ServiceCTA />
       </main>
