@@ -5,7 +5,7 @@ export default function SiteFooter() {
       className="relative overflow-hidden bg-[#063247] px-6 py-12 text-white"
     >
       <img
-        src="/footer-reef.jpg"
+        src="/footer-reef.webp"
         alt="Florida Keys reef background"
         className="absolute inset-0 h-full w-full object-cover opacity-20"
       />

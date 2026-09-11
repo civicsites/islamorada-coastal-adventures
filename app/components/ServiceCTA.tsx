@@ -3,7 +3,7 @@ export default function ServiceCTA() {
       <section className="px-6 py-16">
         <div className="relative mx-auto max-w-7xl overflow-hidden rounded-xl shadow-xl">
           <img
-            src="/footer-reef.jpg"
+            src="/footer-reef.webp"
             alt="Florida Keys reef background"
             className="absolute inset-0 h-full w-full object-cover opacity-45"
           />

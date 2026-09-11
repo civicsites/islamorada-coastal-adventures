@@ -15,7 +15,7 @@ export default function FishingPage() {
       <main className="min-h-screen bg-white text-[#102A3A]">
         <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
           <img
-            src="/footer-reef.jpg"
+            src="/footer-reef.webp"
             alt="Florida Keys reef background"
             className="absolute inset-0 h-full w-full object-cover opacity-45"
           />
@@ -58,7 +58,7 @@ export default function FishingPage() {
 
             <div className="h-[320px] overflow-hidden rounded-2xl shadow-2xl md:h-[420px]">
               <img
-                src="/backcountryfishing.jpeg"
+                src="/backcountryfishing.webp"
                 alt="Backcountry flats fishing in Islamorada"
                 className="h-full w-full object-cover object-[center_34%]"
               />

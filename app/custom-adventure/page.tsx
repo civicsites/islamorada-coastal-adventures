@@ -15,7 +15,7 @@ export default function CustomAdventurePage() {
       <main className="min-h-screen bg-white text-[#102A3A]">
         <section className="relative overflow-hidden bg-[#063247] px-6 py-16 text-white md:py-20">
           <img
-            src="/footer-reef.jpg"
+            src="/footer-reef.webp"
             alt="Florida Keys reef background"
             className="absolute inset-0 h-full w-full object-cover opacity-45"
           />

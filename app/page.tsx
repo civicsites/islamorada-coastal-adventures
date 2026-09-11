@@ -89,13 +89,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(6,50,71,0.95),rgba(6,50,71,0.72),rgba(6,50,71,0.25))]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,_rgba(24,183,185,0.25),_transparent_35%)]" />
         <img
-          src="/backcountry-fishing1a.jpg"
+          src="/backcountry-fishing1a.webp"
           alt="Islamorada boat background"
           className="absolute inset-0 h-full w-full object-cover object-top opacity-70 md:hidden"
         />
 
         <img
-          src="/backcountry-fishing1a.jpg"
+          src="/backcountry-fishing1a.webp"
           alt=""
           className="absolute top-0 left-[-5%] hidden h-full w-[110%] max-w-none object-cover object-[65%_25%] opacity-25 mix-blend-screen md:block"
         />
@@ -159,7 +159,7 @@ export default function Home() {
           <div className="hidden md:block">
             <div className="ml-auto h-[500px] w-full max-w-2xl translate-x-12 overflow-hidden rounded-2xl border border-white/20 shadow-2xl">
               <img
-                src="/hero-boat.jpg"
+                src="/hero-boat.webp"
                 alt="Islamorada Coastal Adventures boat on clear Florida Keys water"
                 className="h-full w-full object-cover object-center"
               />
@@ -235,14 +235,14 @@ export default function Home() {
               {
                 id: "fishing",
                 icon: "🐟",
-                image: "/backcountry.jpeg",
+                image: "/backcountry.webp",
                 title: "Backcountry / Flats Fishing",
                 text: "Light tackle fishing in calm, scenic backcountry waters.",
               },
               {
                 id: "snorkeling",
                 icon: "🤿",
-                image: "/snorkeling-1.jpeg",
+                image: "/snorkeling-1.webp",
                 title: "Private Snorkeling Tours",
                 text: "Vibrant reefs, tropical fish, and crystal clear waters.",
               },
@@ -256,7 +256,7 @@ export default function Home() {
               {
                 id: "sandbar",
                 icon: "🏖️",
-                image: "/sandbar2.jpeg",
+                image: "/sandbar2.webp",
                 title: "Sandbar Excursions",
                 text: "Relax, swim, float, and soak up the Florida sun.",
               },
@@ -311,18 +311,18 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-8 rounded-xl bg-[#DDF7F5] p-6 md:grid-cols-2 md:p-8">
           <div
             className="relative h-[300px] overflow-hidden rounded-lg bg-cover bg-center md:h-[340px]"
-            style={{ backgroundImage: "url('/sandbar1.jpeg')" }}
+            style={{ backgroundImage: "url('/sandbar1.webp')" }}
           >
 
             <img
-              src="/sandbar1.jpeg"
+              src="/sandbar1.webp"
               alt="Islamorada sandbar adventure"
               className="slideshow-image absolute inset-0 h-full w-full object-cover"
               style={{ animationDelay: "0s" }}
             />
 
             <img
-              src="/backcountry.jpeg"
+              src="/backcountry.webp"
               alt="Islamorada fishing adventure"
               className="slideshow-image absolute inset-0 h-full w-full object-cover object-top"
               style={{ animationDelay: "8s" }}
@@ -420,7 +420,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl overflow-hidden rounded-xl shadow-xl">
 
           <img
-            src="/backcountry-fishing1a.jpg"
+            src="/backcountry-fishing1a.webp"
             alt="Florida Keys reef background"
             className="absolute inset-0 h-full w-full object-cover opacity-45"
           />
@@ -456,7 +456,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer id="contact" className="relative min-h-[650px] overflow-hidden bg-[#063247] px-6 py-12 text-white">
         <img
-          src="/backcountry-fishing1a.jpg"
+          src="/backcountry-fishing1a.webp"
           alt="Florida Keys reef background"
           className="absolute inset-0 h-full w-full object-cover object-[center_30%] opacity-40"
         />
