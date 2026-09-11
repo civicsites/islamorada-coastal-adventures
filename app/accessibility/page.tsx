@@ -1,3 +1,6 @@
+import SiteHeader from "../components/SiteHeader";
+import SiteFooter from "../components/SiteFooter";
+
 export const metadata = {
   title: "Accessibility Statement | Islamorada Coastal Adventures",
   description:
@@ -6,8 +9,11 @@ export const metadata = {
 
 export default function AccessibilityPage() {
   return (
-    <main className="min-h-screen bg-white px-6 py-16 text-[#102A3A]">
-      <section className="mx-auto max-w-3xl">
+    <>
+      <SiteHeader />
+
+      <main className="min-h-screen bg-white px-6 py-16 text-[#102A3A]">
+        <section className="mx-auto max-w-3xl">
         <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#18B7B9]">
           Accessibility
         </p>
@@ -84,7 +90,10 @@ export default function AccessibilityPage() {
         <p className="mt-8 text-sm leading-6 text-slate-500">
           Last updated: July 2026
         </p>
-      </section>
-    </main>
+        </section>
+      </main>
+
+      <SiteFooter />
+    </>
   );
 }
