@@ -4,7 +4,7 @@ import SiteFooter from "../components/SiteFooter";
 export const metadata = {
   title: "Accessibility Statement | Islamorada Coastal Adventures",
   description:
-    "Accessibility statement for Islamorada Coastal Adventures.",
+    "Read the accessibility statement for Islamorada Coastal Adventures and learn about our commitment to an inclusive, user-friendly website experience.",
 };
 
 export default function AccessibilityPage() {
