@@ -13,11 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.islamoradacoastaladventures.com"),
   title: "Islamorada Private Boat Charters | Islamorada Coastal Adventures",
   description:
     "Private Islamorada boat charters for fishing, snorkeling, sandbar trips, eco tours, and custom adventures throughout the Florida Keys.",
+  openGraph: {
+    title: "Islamorada Private Boat Charters | Islamorada Coastal Adventures",
+    description:
+      "Private Islamorada boat charters for fishing, snorkeling, sandbar trips, eco tours, and custom adventures throughout the Florida Keys.",
+    url: "https://www.islamoradacoastaladventures.com",
+    siteName: "Islamorada Coastal Adventures",
+    images: [
+      {
+        url: "https://www.islamoradacoastaladventures.com/logo.JPG",
+        alt: "Islamorada Coastal Adventures",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Islamorada Private Boat Charters | Islamorada Coastal Adventures",
+    description:
+      "Private Islamorada boat charters for fishing, snorkeling, sandbar trips, eco tours, and custom adventures throughout the Florida Keys.",
+    images: ["https://www.islamoradacoastaladventures.com/logo.JPG"],
+  },
 };
-
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -59,13 +81,13 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-     <body className="min-h-full flex flex-col">
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
-  />
-  {children}
-</body>
+      <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
