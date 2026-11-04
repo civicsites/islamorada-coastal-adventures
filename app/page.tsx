@@ -68,6 +68,9 @@ export default function Home() {
             <a href="/custom-adventure" className="hover:text-[#18B7B9]">
               Custom Adventure
             </a>
+            <a href="/gallery" className="hover:text-[#18B7B9]">
+              Gallery
+            </a>
             <a href="/about" className="hover:text-[#18B7B9]">
               About
             </a>
@@ -531,6 +534,9 @@ export default function Home() {
                 Eco Tours
               </a>
 
+              <a href="/gallery" className="hover:text-white">
+                Photo Gallery
+              </a>
               <a href="/reviews" className="hover:text-white">
                 Reviews
               </a>
