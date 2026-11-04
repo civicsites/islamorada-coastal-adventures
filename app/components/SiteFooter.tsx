@@ -75,6 +75,9 @@ export default function SiteFooter() {
             <a href="/eco-tours" className="hover:text-white">
               Eco Tours
             </a>
+            <a href="/gallery" className="hover:text-white">
+              Photo Gallery
+            </a>
             <a href="/reviews" className="hover:text-white">
               Reviews
             </a>
