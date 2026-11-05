@@ -5,13 +5,13 @@ import Image from "next/image";
 import type { GalleryPhoto } from "./photos";
 
 export default function PhotoGallery({ photos }: { photos: GalleryPhoto[] }) {
-  const [category, setCategory] = useState("All Photos");
+  const [category, setCategory] = useState<string | null>(null);
   const [paused, setPaused] = useState(false);
   const results = useRef<HTMLDivElement>(null);
   const [limit, setLimit] = useState(24);
   const [selected, setSelected] = useState<number | null>(null);
   const dialog = useRef<HTMLDialogElement>(null);
-  const visible = category === "All Photos" ? photos : photos.filter((photo) => photo.category === category);
+  const visible = photos.filter((photo) => photo.category === category);
   const groups = [
     { name: "Sandbar", description: "Shallow water, sunshine, and sandbar smiles.", cover: 3 },
     { name: "Fishing", description: "Big catches and backcountry memories.", cover: 2 },
@@ -21,7 +21,7 @@ export default function PhotoGallery({ photos }: { photos: GalleryPhoto[] }) {
   function chooseGroup(name: string) {
     setCategory(name);
     setLimit(24);
-    results.current?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth", block: "start" });
+    requestAnimationFrame(() => results.current?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth", block: "start" }));
   }
   const active = selected === null ? null : visible[selected];
   const move = (step: number) => setSelected((index) => index === null ? null : (index + step + visible.length) % visible.length);
@@ -65,8 +65,8 @@ export default function PhotoGallery({ photos }: { photos: GalleryPhoto[] }) {
           </button>;
         })}
       </div>
-      <div id="gallery-results" ref={results} className="mt-12 scroll-mt-80 md:scroll-mt-60">
-        <div className="flex flex-wrap items-center justify-between gap-4"><h2 className="text-2xl font-black text-[#063247]">{category}</h2>{category !== "All Photos" && <button type="button" onClick={() => chooseGroup("All Photos")} className="rounded-full border border-[#063247] px-5 py-2 text-sm font-bold text-[#063247] hover:bg-[#DDF7F5]">View all 76 photos</button>}</div>
+      <div id="gallery-results" ref={results} hidden={category === null} className="mt-12 scroll-mt-80 md:scroll-mt-60">
+        <div className="flex flex-wrap items-center justify-between gap-4"><h2 className="text-2xl font-black text-[#063247]">{category}</h2></div>
       <p className="my-6 text-sm text-slate-600" aria-live="polite">{visible.length} {visible.length === 1 ? "photo" : "photos"} · Select a photo to take a closer look.</p>
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {visible.slice(0, limit).map((photo, index) => (

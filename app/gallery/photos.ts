@@ -39,9 +39,10 @@ export async function getGalleryPhotos(): Promise<GalleryPhoto[]> {
     return groups.flat();
   }
   const photos = await readFolder();
-  return (photos.length ? photos : starterPhotos).map((photo, index) => ({
-    ...photo,
-    title: `Florida Keys Adventure ${index + 1}`,
-    category: (photoCategories as Record<string, string>)[photo.src] ?? "On the Water",
-  }));
+  const counts: Record<string, number> = {};
+  return (photos.length ? photos : starterPhotos).map((photo) => {
+    const category = (photoCategories as Record<string, string>)[photo.src] ?? "On the Water";
+    counts[category] = (counts[category] ?? 0) + 1;
+    return { ...photo, category, title: `${category} ${counts[category]}` };
+  });
 }
