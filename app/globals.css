@@ -65,3 +65,20 @@ summary {
   animation: fadeSlide 32s infinite ease-in-out;
   will-change: opacity;
 }
+
+@keyframes galleryDrift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.gallery-strip-track {
+  display: flex;
+  width: max-content;
+  animation: galleryDrift 70s linear infinite;
+}
+.gallery-strip:hover .gallery-strip-track {
+  animation-play-state: paused !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .gallery-strip { overflow-x: auto; }
+  .gallery-strip-track { animation: none; }
+}

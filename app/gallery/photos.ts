@@ -1,5 +1,6 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
+import photoCategories from "./categories.json";
 
 export type GalleryPhoto = { src: string; title: string; category: string };
 
@@ -41,5 +42,6 @@ export async function getGalleryPhotos(): Promise<GalleryPhoto[]> {
   return (photos.length ? photos : starterPhotos).map((photo, index) => ({
     ...photo,
     title: `Florida Keys Adventure ${index + 1}`,
+    category: (photoCategories as Record<string, string>)[photo.src] ?? "On the Water",
   }));
 }
